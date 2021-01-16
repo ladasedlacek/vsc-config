@@ -1,0 +1,51 @@
+{ 
+    /* *** ls settings *** */
+    /* *** assets
+        - Material Icon Theme - https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme
+        - Color Theme Dracula - https://marketplace.visualstudio.com/items?itemName=dracula-theme.theme-dracula
+        - Path Intellisense - https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense
+        - JavaScript (ES6) code snippets - https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets
+        - Bracket Pair Colorizer - https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer
+    *** */
+
+    /* *** editor *** */
+    "editor.fontSize": 14.5,
+    "editor.letterSpacing": 0.5,
+    "editor.lineHeight": 22,
+    "editor.fontFamily": "Consolas",
+    "editor.wordWrap": "on",
+    "workbench.colorCustomizations": {
+        "tab.inactiveBackground": "#161616",
+        "tab.activeBackground": "#353535",
+        "activityBar.background": "#161616",
+        "sideBar.background": "#161616",
+        "editorGroupHeader.tabsBackground": "#161616"
+    },
+
+    "workbench.sideBar.location": "left",
+    "workbench.statusBar.visible": true,
+    "workbench.activityBar.visible": true,
+    "editor.minimap.enabled": true,
+    "window.zoomLevel": 0,
+    "workbench.iconTheme": "material-icon-theme",
+
+    /* *** sass *** */
+    "liveSassCompile.settings.generateMap": false,
+    "liveSassCompile.settings.autoprefix": [
+        "> 1%", "last 2 versions"
+    ],
+    "liveSassCompile.settings.formats": [
+        {
+            "extensionName": ".min.css",
+            "format": "compressed"
+        }
+    ],
+    "liveSassCompile.settings.excludeList": [
+        "**/node_modules/**",
+        ".vscode/**"
+    ],
+
+    /* *** theme *** */
+    "workbench.colorTheme": "Dracula Soft"
+
+}
